@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="firstcleartriptest.mavenjava.BTrainTest">
+        <methods>
+          <include name="cdateTrain"/>
+          <include name="bclassTrain"/>
+          <include name="asetUpTrain"/>
+          <include name="dcloseTrain"/>
+        </methods>
+      </class> <!-- firstcleartriptest.mavenjava.BTrainTest -->
+      <class name="firstcleartriptest.mavenjava.AFlightTest">
+        <methods>
+          <include name="closeFlight"/>
+          <include name="setUpFlight"/>
+          <include name="testPersons"/>
+          <include name="testFlight"/>
+        </methods>
+      </class> <!-- firstcleartriptest.mavenjava.AFlightTest -->
+      <class name="firstcleartriptest.mavenjava.CHotelTest">
+        <methods>
+          <include name="setUpHotel"/>
+          <include name="closeHotel"/>
+          <include name="aHotelLocation"/>
+          <include name="bHotelTraveller"/>
+        </methods>
+      </class> <!-- firstcleartriptest.mavenjava.CHotelTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

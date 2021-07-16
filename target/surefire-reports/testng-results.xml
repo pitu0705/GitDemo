@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="58398" started-at="2021-06-20T16:57:22 IST" finished-at="2021-06-20T16:58:20 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="58398" started-at="2021-06-20T16:57:22 IST" finished-at="2021-06-20T16:58:20 IST">
+      <class name="firstcleartriptest.mavenjava.CHotelTest">
+        <test-method status="PASS" signature="setUpHotel()[pri:0, instance:firstcleartriptest.mavenjava.CHotelTest@76707e36]" name="setUpHotel" is-config="true" duration-ms="9246" started-at="2021-06-20T16:58:03 IST" finished-at="2021-06-20T16:58:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotel -->
+        <test-method status="PASS" signature="aHotelLocation()[pri:4, instance:firstcleartriptest.mavenjava.CHotelTest@76707e36]" name="aHotelLocation" duration-ms="4960" started-at="2021-06-20T16:58:12 IST" finished-at="2021-06-20T16:58:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aHotelLocation -->
+        <test-method status="PASS" signature="bHotelTraveller()[pri:5, instance:firstcleartriptest.mavenjava.CHotelTest@76707e36]" name="bHotelTraveller" duration-ms="728" started-at="2021-06-20T16:58:17 IST" finished-at="2021-06-20T16:58:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bHotelTraveller -->
+        <test-method status="PASS" signature="closeHotel()[pri:0, instance:firstcleartriptest.mavenjava.CHotelTest@76707e36]" name="closeHotel" is-config="true" duration-ms="2739" started-at="2021-06-20T16:58:18 IST" finished-at="2021-06-20T16:58:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHotel -->
+      </class> <!-- firstcleartriptest.mavenjava.CHotelTest -->
+      <class name="firstcleartriptest.mavenjava.BTrainTest">
+        <test-method status="PASS" signature="asetUpTrain()[pri:0, instance:firstcleartriptest.mavenjava.BTrainTest@1e6d1014]" name="asetUpTrain" is-config="true" duration-ms="13088" started-at="2021-06-20T16:57:46 IST" finished-at="2021-06-20T16:57:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asetUpTrain -->
+        <test-method status="PASS" signature="bclassTrain()[pri:2, instance:firstcleartriptest.mavenjava.BTrainTest@1e6d1014]" name="bclassTrain" duration-ms="1748" started-at="2021-06-20T16:57:59 IST" finished-at="2021-06-20T16:58:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclassTrain -->
+        <test-method status="PASS" signature="cdateTrain()[pri:3, instance:firstcleartriptest.mavenjava.BTrainTest@1e6d1014]" name="cdateTrain" duration-ms="433" started-at="2021-06-20T16:58:01 IST" finished-at="2021-06-20T16:58:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cdateTrain -->
+        <test-method status="PASS" signature="dcloseTrain()[pri:0, instance:firstcleartriptest.mavenjava.BTrainTest@1e6d1014]" name="dcloseTrain" is-config="true" duration-ms="1251" started-at="2021-06-20T16:58:01 IST" finished-at="2021-06-20T16:58:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dcloseTrain -->
+      </class> <!-- firstcleartriptest.mavenjava.BTrainTest -->
+      <class name="firstcleartriptest.mavenjava.AFlightTest">
+        <test-method status="PASS" signature="setUpFlight()[pri:0, instance:firstcleartriptest.mavenjava.AFlightTest@6c49835d]" name="setUpFlight" is-config="true" duration-ms="17504" started-at="2021-06-20T16:57:22 IST" finished-at="2021-06-20T16:57:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFlight -->
+        <test-method status="PASS" signature="testFlight()[pri:0, instance:firstcleartriptest.mavenjava.AFlightTest@6c49835d]" name="testFlight" duration-ms="338" started-at="2021-06-20T16:57:40 IST" finished-at="2021-06-20T16:57:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlight -->
+        <test-method status="PASS" signature="testPersons()[pri:1, instance:firstcleartriptest.mavenjava.AFlightTest@6c49835d]" name="testPersons" duration-ms="4454" started-at="2021-06-20T16:57:40 IST" finished-at="2021-06-20T16:57:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersons -->
+        <test-method status="PASS" signature="closeFlight()[pri:0, instance:firstcleartriptest.mavenjava.AFlightTest@6c49835d]" name="closeFlight" is-config="true" duration-ms="1741" started-at="2021-06-20T16:57:44 IST" finished-at="2021-06-20T16:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFlight -->
+      </class> <!-- firstcleartriptest.mavenjava.AFlightTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
